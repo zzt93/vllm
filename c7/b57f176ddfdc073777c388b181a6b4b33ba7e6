@@ -1,0 +1,24 @@
+tests/kernels/test_ll_bf16_gemm.py
+  h_645bbb62f716a9 58,66-69,72,149-174,428,433,490-514,593-595,598
+vllm/model_executor/kernels/linear/cute_dsl/_ll_bf16_dotprod.py
+  h_645bbb62f716a9 14-15,34,304,309
+vllm/model_executor/kernels/linear/cute_dsl/_ll_bf16_splitk.py
+  h_645bbb62f716a9 44-46,50,69,584
+vllm/model_executor/kernels/linear/cute_dsl/ll_bf16.py
+  h_645bbb62f716a9 135,138-142,144-151,155-161,166-171,186,192-193,205,223-229,247,261-268,278-282,287-292,326-330,348,353,355-359,364-369
+vllm/model_executor/layers/fused_moe/router/gate_linear.py
+  h_645bbb62f716a9 21,135,164,177-180
+vllm/model_executor/models/qwen3_next.py
+  h_645bbb62f716a9 23,138,142
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "c7b57f176ddfdc073777c388b181a6b4b33ba7e6",
+  "prompts": {},
+  "humans": {
+    "h_645bbb62f716a9": {
+      "author": "zzt <zengzetang.zzt@antgroup.com>"
+    }
+  }
+}
