@@ -1,0 +1,31 @@
+docs/design/hybrid_kv_cache_manager.md
+  s_8aad3c0c80ccb7::t_4fa9d04e73e2f8 57-66
+tests/v1/core/test_single_type_kv_cache_manager.py
+  s_8aad3c0c80ccb7::t_9ca99c678456a6 1313-1384
+tests/v1/e2e/general/test_correctness_sliding_window.py
+  s_8aad3c0c80ccb7::t_25a46bc699d1b2 134-185
+tests/v1/kv_connector/unit/test_remote_prefill_lifecycle.py
+  s_8aad3c0c80ccb7::t_6de4341ecc6ce3 1197-1247
+vllm/v1/core/kv_cache_coordinator.py
+  s_8aad3c0c80ccb7::t_e08c5c341f6966 15,158,180,212-223
+vllm/v1/core/sched/scheduler.py
+  s_8aad3c0c80ccb7::t_ebb438e43fa1db 3730
+vllm/v1/core/single_type_kv_cache_manager.py
+  s_8aad3c0c80ccb7::t_82982cbade7f66 281-303,330-331,342-346,355,358,385-389,393-394
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "993db2c4cdbececc515839e0d63012d81f7f245a",
+  "prompts": {},
+  "sessions": {
+    "s_8aad3c0c80ccb7": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a21152-6934-7751-b874-3271186c1bb5",
+        "model": "gpt-6.2-astra"
+      },
+      "human_author": "zzt <zengzetang.zzt@antgroup.com>"
+    }
+  }
+}
